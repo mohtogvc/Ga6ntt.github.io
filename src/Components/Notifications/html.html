@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Toastify Example</title>
+    <!-- Include React and ReactDOM -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <!-- Include React Toastify CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/react-toastify/8.0.5/react-toastify.min.css">
+</head>
+<body>
+    <!-- This div will be the container for the React component -->
+    <div id="notificationsContainer"></div>
+
+    <!-- Your other HTML content here -->
+
+    <!-- Include your compiled React component -->
+    <script src="path/to/compiled/react-components.js"></script>
+    <!-- Initialize React component in the container div -->
+    <script>
+        ReactDOM.render(
+            React.createElement(Notifications),
+            document.getElementById('notificationsContainer')
+        );
+    </script>
+</body>
+</html>
